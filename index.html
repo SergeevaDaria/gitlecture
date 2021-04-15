@@ -1,4 +1,115 @@
-hello world
-<ul>
-    <li><a href="./HomeTask3.html" >Home Task 3</a></li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeTask3</title>
+</head>
+<body>
+
+  <nav>
+    Home
+    Catrgories
+    Galery
+    Account
+  </nav>
+  
+  <!--Table with info about users-->
+  <table border="1">
+    <thead>
+        <tr>
+            <th colspan="4">Users info</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>Surname</td>
+            <td>Phone</td>
+            <td>Email</td>  
+        </tr>
+        <tr>
+          <td>Bob </td> 
+          <td>Dilan</td>
+          <td>+38045876546</td> 
+          <td>Bob@gmail.com</td>
+        </tr> 
+        <tr>
+          <td>Elisa </td> 
+          <td>Ross</td>
+          <td>+38045875896</td> 
+          <td>Elisa@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Super </td> 
+          <td>Man</td>
+          <td>+12065413256</td> 
+          <td>SuperMan@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Good </td> 
+          <td>Boy</td>
+          <td>+96632565421</td> 
+          <td>GBoy@gmail.com</td>
+        </tr>
+    </tbody>
+</table>
+<!--Registratration Form-->
+<div>
+  <h2>Registration</h2>
+  <label for="name">Name:</label>
+  <input placeholder="Enter your name" type="text" id="name" name="name" required
+       minlength="4" maxlength="13" size="15">
+  <label for="Surname">Surname:</label>
+  <input placeholder="Enter your surname" type="text" id="Surname" name="Surname" required
+       minlength="4" maxlength="13" size="15">
+<!-- Radio baton for gender-->
+<p>Select a gender:</p>
+<div>
+  <input type="radio" id="Woman" name="gender" value="Woman"
+         checked>
+  <label for="Woman">Woman</label>
+</div>
+<div>
+  <input type="radio" id="Man" name="gender" value="Man">
+  <label for="Man">Man</label>
+</div>
+<div>
+  <input type="radio" id="Other" name="gender" value="Other">
+  <label for="Other">Other</label>
+</div>
+<!--Textarea for comment-->
+<textarea placeholder=" Enter your comment, please" >
+</textarea>
+<br></br>
+<!--Dropdown for town-->
+  <select name="town" id="town">
+    <optgroup label="Choose a town"></optgroup>
+      <option value="Kyiv">Kyiv</option>
+      <option value="Lviv">Lviv</option>
+      <option value="Kherson">Kherson</option>
+      <option value="Odesa">Odesa</option>
+    </optgroup>
+  </select>
+<!-- Checkbox for language-->
+<p>Choose language:</p>
+<div>
+  <input type="checkbox" id="Русский" name="Русский">
+  <label for="Русский">Русский</label>
+</div>
+<div>
+  <input type="checkbox" id="English" name="English">
+  <label for="English">English</label>
+</div>
+<div>
+  <input type="checkbox" id="Ukraine" name="Ukraine">
+  <label for="Ukraine">Ukraine</label>
+</div>
+<button class="Send"
+        type="button">
+    Send
+</button>
+</div>
+</body>
+</html>

@@ -1,3 +1,128 @@
-h2: {
-  color: blueviolet;
+body {
+  background-color: #2c2c2c;
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+button {
+  background-color: #2c2c2c;
+  border: none;
+}
+button:disabled {
+  opacity: 0.5;
+}
+#site-search {
+  background-color: #7f7f7f;
+  border-radius: 5px;
+  border: none;
+}
+#site-search::placeholder {
+  color: #7f7f7f;
+
+  padding-left: 24px;
+}
+table {
+  border-color: #7f7f7f;
+  border: none;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+td,
+th {
+  border: none;
+}
+th.checkbox {
+  text-align: left;
+}
+th.centre-position {
+  padding: 12px 48px 12px 10px;
+  text-align: left;
+}
+td {
+  padding-left: 10px;
+  border-top: 1px solid #7f7f7f;
+}
+.checkbox {
+  padding-left: 10px;
+  width: 24px;
+}
+.Name-column {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 62px;
+}
+th.name-checkbox,
+td.name-checkbox {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+th > span {
+  line-height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.dots-button {
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: right;
+}
+.table {
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #7f7f7f;
+}
+.table.pdf {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 165px;
+}
+.table.checkbox-table {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 165px;
+}
+.table.search-table {
+  margin-top: 28px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 165px;
+}
+.Table-Search,
+.Table-Checkbox,
+.Table-PDF {
+  width: 100%;
+}
+
+.Table-PDF .Name-column {
+  padding-right: 65px;
+}
+.Table-Checkbox .Name-column {
+  padding-right: 60px;
+}
+.Table-Search .Name-column {
+  padding-right: 180px;
+  vertical-align: middle;
+}
+.name-search {
+  vertical-align: super;
+}
+th {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  top: 10px;
+  right: 130px;
+}
+th.search-input {
+  text-align: right;
+}
+#site-search {
+  height: 30px;
+  background-color: #444444;
 }
